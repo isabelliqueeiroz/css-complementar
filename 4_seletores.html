@@ -2,14 +2,20 @@
     <title>Exemplo de Especificidade</title>
     <style>
         /* Regra 1: Seletor de TAG (Especificidade = 1 ponto) */
-        /* Continuar 1ª digitação (Aqui) */
+     P {
+        color: blue;
+     }
 
         /* Regra 2: Seletor de CLASSE (Especificidade = 10 pontos) */
-        /* Continuar 2ª digitação (Aqui) */
+       .tetxo-importante {
+        color: green;
+       }
 
         /* Regra 3: Seletor de ID (Especificidade = 100 pontos) */
-        /* Continuar 3ª digitação (Aqui) */
-
+       #paragrafo-unico {
+        color: red;
+       }
+       
     </style>
 </head>
 <body>
